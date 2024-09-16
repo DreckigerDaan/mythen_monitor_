@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ command, mode }) => {
   return {
-    base: mode === 'production' ? '/mythen_monitor_/' : '/',
+    base: mode === 'production' ? '/mythen_monitor_/' : './',
     plugins: [react()]
   }
 })
