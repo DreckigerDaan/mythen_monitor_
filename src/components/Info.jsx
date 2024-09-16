@@ -90,8 +90,8 @@ function Info() {
 
           <div className="diago_bg_2">
             <h3>
-              einen Wirtschaftswissenschaftler ob er für oder gegen die
-              Wirtschaft ist. Oder einen Agrarwissenschaftler ob er für oder
+              eine Wirtschaftswissenschaftlerin ob sie für oder gegen die
+              Wirtschaft ist. Oder eine Agrarwissenschaftlerin ob sie für oder
               gegen Landwirtschaft ist.
             </h3>
           </div>

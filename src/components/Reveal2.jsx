@@ -4,7 +4,7 @@ import { motion, useInView, useAnimation } from "framer-motion";
 export const Reveal2 = ({ width = "100%" }) => {
   const ref = useRef(null);
 
-  const isInView = useInView(ref, { once: true, margin: "-50px 0px" });
+  const isInView = useInView(ref, { once: true, margin: "-100px 0px" });
 
   const mainControls = useAnimation();
 
