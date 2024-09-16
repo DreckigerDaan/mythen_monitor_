@@ -5,7 +5,7 @@ import { main } from "framer-motion/client";
 export const Reveal = ({ children, width = "100%" }) => {
   const ref = useRef(null);
 
-  const isInView = useInView(ref, { once: true, margin: "-350px 0px" });
+  const isInView = useInView(ref, { once: true, margin: "-50px 0px" });
 
   const mainControls = useAnimation();
 

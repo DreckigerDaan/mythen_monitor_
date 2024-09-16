@@ -151,7 +151,7 @@ function Mythos1Graph2() {
       svgContainer
         .append("svg:image")
         .attr("class", "image-work")
-        .attr("xlink:href", "src/assets/icon_work.svg")
+        .attr("xlink:href", WorkIcon)
         .attr("width", 50)
         .attr("height", 50)
         .attr("x", x(data2[0].year))
@@ -162,7 +162,7 @@ function Mythos1Graph2() {
       svgContainer
         .append("svg:image")
         .attr("class", "image-lips")
-        .attr("xlink:href", "src/assets/icon_lips.svg")
+        .attr("xlink:href", LipsIcon)
         .attr("width", 50)
         .attr("height", 50)
         .attr("x", x(data2[1].year + 0.1))
@@ -173,7 +173,7 @@ function Mythos1Graph2() {
       svgContainer
         .append("svg:image")
         .attr("class", "image-star")
-        .attr("xlink:href", "src/assets/icon_star.svg")
+        .attr("xlink:href", StarIcon)
         .attr("width", 50)
         .attr("height", 50)
         .attr("x", x(data2[2].year))
@@ -184,7 +184,7 @@ function Mythos1Graph2() {
       svgContainer
         .append("svg:image")
         .attr("class", "image-snake")
-        .attr("xlink:href", "src/assets/icon_snake.svg")
+        .attr("xlink:href", SnakeIcon)
         .attr("width", 50)
         .attr("height", 50)
         .attr("x", x(data2[3].year))
