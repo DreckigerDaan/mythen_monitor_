@@ -1,0 +1,7 @@
+.impressum_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+}

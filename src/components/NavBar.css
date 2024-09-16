@@ -1,0 +1,38 @@
+.NavBar {
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #4F5459;
+    position: relative;
+
+}
+
+.menu_icon {
+  display: flex;
+  position: absolute; /* Absolut positioniert, damit es vom linken Rand weg bewegt werden kann */
+  left: 20px;
+  
+  
+}
+
+
+
+.menu_icon img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-right: auto;
+    justify-content: left;
+  }
+  
+  /* Styling für das Menü-Icon */
+  .menu_icon.menu-open img {
+    opacity: 1;
+    transform: scale(0.8); /* Optional: Verkleinert das Icon */
+  }
+  
+  /* Styling für das Schließen-Icon */
+  .menu_icon.menu-close img {
+    opacity: 1;
+    transform: scale(1); /* Optional: Normale Größe des Icons */
+  }

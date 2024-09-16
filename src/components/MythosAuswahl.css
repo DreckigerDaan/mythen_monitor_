@@ -1,0 +1,118 @@
+.mythos_selection_wrap {
+    position: relative;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+.mythos_selection_wrap img {
+    position: absolute;
+    top: 30px;
+    opacity: 0.3;
+}
+
+.title {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.selection_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.mythos {
+    height: 100px;
+    background-color: var(--first-color-info);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -30px;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    padding: 20px;
+}
+
+.mythos h1 {
+    margin: 0;
+    text-align: left;
+
+}
+
+.mythos.expanded {
+    flex-grow: 1;
+    height: auto; /* Höhe wird durch Inhalt bestimmt */
+    margin-top: -30px;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+
+}
+
+a:visited, a:link{
+    color: white;
+}
+
+
+button {
+    text-decoration: none;
+}
+
+
+.mythos hr {
+    margin: 20px 0;
+}
+
+.mythos p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.mythos button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+#button1 {
+    
+    background-color: var(--second-color-info);
+}
+
+#button2 {
+    background-color: var(--third-color-info);
+}
+
+#button3 {
+    background-color: var(--first-color-info);
+}
+
+
+
+
+.mythos button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.mythos_1 {
+    background-color: var(--first-color-info);
+
+}
+.mythos_2 {
+    background-color: var(--second-color-info);
+    
+}
+.mythos_3 {
+    background-color: var(--third-color-info);
+    
+}
+
+

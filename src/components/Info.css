@@ -1,0 +1,108 @@
+.info {
+    color: white;
+    margin: 0 auto; /* Zentriert den Container */
+    font-size: smaller;
+    display: flex;
+    flex-direction: column; /* Stellt sicher, dass Kinder-Elemente untereinander angezeigt werden */
+    justify-content: center;
+    text-align: center;
+
+}
+
+.wrap {
+    text-align: left;
+}
+
+
+.wrap p {
+
+    transform: rotate(2deg);
+    padding: 0 40px;
+    text-align: center;
+    
+   
+
+}
+
+.wrap h3 {
+    transform: rotate(2deg);
+}
+
+.wrap h1 {
+    margin-top: 50px;
+    margin-bottom:50px;
+
+}
+
+.wrap h2 {
+    padding: 0 15px;
+}
+
+.wrap hr {
+    width: 10%;
+
+}
+
+
+
+
+.diago_bg {
+    margin: 20px 0 100px 0;
+    background-color: #4F5459;
+    width: 100%;
+    padding: 20px 0;
+    transform: rotate(-2deg); /* Ändere den Winkel nach Bedarf */
+    overflow-x: hidden;
+    text-align: center;
+   
+    
+}
+
+.diago_bg h3 {
+    padding: 20px;
+    font-weight: 400;
+}
+
+
+.diago_bg_2 {
+    margin: 20px 0 100px 0;
+    background-color: #717C87;
+    width: 100%;
+    padding: 15px 0;
+    transform: rotate(-2deg); /* Ändere den Winkel nach Bedarf */
+    overflow-x: hidden;
+}
+.diago_bg_2 h3 {
+    padding: 20px;
+    font-weight: 400;
+}
+
+
+.diago_bg_3 {
+
+    margin: 20px 0 100px 0;
+    background-color: #889CAF;
+    width: 100%;
+    padding: 20px 0;
+    transform: rotate(-2deg); /* Ändere den Winkel nach Bedarf */
+    overflow-x: hidden;
+
+}
+.diago_bg_3 h3 {
+    padding: 20px;
+    font-weight: 400;
+}
+
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.arrow img {
+    display: flex;
+    align-items: center;
+
+}

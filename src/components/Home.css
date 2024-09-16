@@ -1,0 +1,63 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    max-width: 100%;
+    font-size: large;
+
+}
+
+.logo {
+    margin: 10px 0;
+    width: 70%;
+}
+
+.world  {
+    height: 200px;
+}
+
+.world img  {
+    max-width: 100%;
+}
+
+.arrow {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+
+.home hr {
+    border: 1px solid yellow;
+    width: 50%;
+}
+
+
+.text_unten {
+    margin: 0 30px;
+    width: 100%;
+}
+
+.text_unten h1 {
+    margin-bottom: 20px;
+}
+
+.text_unten h3 {
+    margin-top: 20px;
+}
