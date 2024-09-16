@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import "./menu.css";
+import "./Menu.css";
 import Arrow_right from "../assets/arrow_right.svg";
 import Circles from "../assets/circles.svg";
 import { Link } from "react-router-dom";
