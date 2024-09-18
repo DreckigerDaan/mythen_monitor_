@@ -79,9 +79,7 @@ function MythosAuswahl() {
                 <hr />
                 <div className="mythos_content">
                   <p>Mythos #3 detaillierte Beschreibung.</p>
-                  <button id="button3">
-                    <Link to="/MythosEins">Zur Mythoswiderlegung</Link>
-                  </button>
+                  <button id="button3">Zur Mythoswiderlegung</button>
                 </div>
               </>
             )}
@@ -99,9 +97,7 @@ function MythosAuswahl() {
                 <hr />
                 <div className="mythos_content">
                   <p>Mythos #4 detaillierte Beschreibung.</p>
-                  <button id="button1">
-                    <Link to="/MythosEins">Zur Mythoswiderlegung</Link>
-                  </button>
+                  <button id="button1">Zur Mythoswiderlegung</button>
                 </div>
               </>
             )}
