@@ -9,6 +9,7 @@ import Impressum from "./components/Impressum";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import MythosZwei from "./components/MythosZwei";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="Home" element={<Home />} />
         <Route path="Info" element={<Info />} />
         <Route path="MythosEins" element={<MythosEins />} />
+        {/* <Route path="MythosZwei" element={<MythosZwei />} /> */}
         <Route path="MythosAuswahl" element={<MythosAuswahl />} />
         <Route path="Menu" element={<Menu />} />
         <Route path="Impressum" element={<Impressum />} />

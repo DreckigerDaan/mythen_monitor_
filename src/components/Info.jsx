@@ -51,11 +51,11 @@ function Info() {
             <h2>Es muss immer ein Nutzen dahinter stehen..</h2>
             <div className="diago_bg">
               <h3>
-                Diese Ausarbeitung soll lediglich eine Widerlegung des oben
-                genannnten Mythos darstellen und nicht die Annahme
-                untersteichen, dass ein Migrant oder eine Migrantin nur einen
-                Nutzen haben wenn Sie ein Teil des Arbeitsmarktes sind und das
-                Bruttoinlandsprodukt ankurbeln
+                ..diese Ausarbeitung soll nicht verdeutlichen, dass der Wert von
+                Migrantinnen und Migranten ausschließlich durch ihren Beitrag
+                zum Arbeitsmarkt oder zur Steigerung des Bruttoinlandsprodukts
+                bestimmt werden sollte. Migration hat viele Dimensionen und
+                sollte nicht nur durch ökonomische Kennzahlen bewertet werden
               </h3>
             </div>
           </div>
@@ -75,12 +75,12 @@ function Info() {
 
           <div className="diago_bg">
             <h3>
-              lassen keine echten Auseinandersetzung mit dem Thema zu und bieten
-              keinen Raum für Zwischentöne und Differenzierungen. Das Phänomen
-              Migration ist zu vielschichtig für einfaches Schwarz-Weiß-Denken.
-              Wir übersehen dabei einen wesentlichen Aspekt des menschlichen
-              Daseins und unserer Geschichte. Migration hat es schon immer
-              gegeben, sie ist so alt wie die Menschheit.
+              ..lassen keine echten Auseinandersetzung mit dem Thema zu und
+              bieten keinen Raum für Zwischentöne und Differenzierungen. Das
+              Phänomen Migration ist zu vielschichtig für einfaches
+              Schwarz-Weiß-Denken. Wir übersehen dabei einen wesentlichen Aspekt
+              des menschlichen Daseins und unserer Geschichte. Migration hat es
+              schon immer gegeben, sie ist so alt wie die Menschheit.
             </h3>
           </div>
         </Reveal>
@@ -90,8 +90,8 @@ function Info() {
 
           <div className="diago_bg_2">
             <h3>
-              eine Wirtschaftswissenschaftlerin ob sie für oder gegen die
-              Wirtschaft ist. Oder eine Agrarwissenschaftlerin ob sie für oder
+              ..eine Wirtschaftswissenschaftlerin ob sie für oder gegen die
+              Wirtschaft ist. Oder einen Agrarwissenschaftler ob er für oder
               gegen Landwirtschaft ist.
             </h3>
           </div>
@@ -100,8 +100,10 @@ function Info() {
           <h2>Migration ist..</h2>
           <div className="diago_bg_3">
             <h3>
-              weder ein Problem, welches es zu lösen gilt. Noch ist es eine
-              Lösung für unsere industriestaatlichen Probleme.
+              ..weder ein Problem noch eine einfache Lösung. Sie erfordert eine
+              differenzierte Betrachtung, die über aktuelle Debatten hinausgeht
+              und historische, soziale sowie wirtschaftliche Zusammenhänge
+              einbezieht. Migration begleitet die Menschheit seit jeher.
             </h3>
           </div>
         </Reveal>

@@ -266,10 +266,10 @@ function Mythos1Grafik3() {
         </Reveal>
 
         <Reveal>
-          <h2>Die rechte Y-Achse</h2>
+          <h2>Die linke Y-Achse</h2>
           <div className="diago_bg_3">
             <p>
-              bezieht sich auf das Wirtschaftswachstum in %, die linke Y-Achse
+              bezieht sich auf das Wirtschaftswachstum in %, die rechte Y-Achse
               auf die Nettozuwanderungen in absoluter Zahl.
             </p>
           </div>
@@ -302,12 +302,13 @@ function Mythos1Grafik3() {
 
       <div className="wrap">
         <Reveal>
-          <h2>Der Befund ist eindeutig:</h2>
+          <h2>Der Befund ist eindeutig..</h2>
           <div className="diago_bg">
             <p>
-              Wenn das Wirtschafswachstum hoch und die Arbeitslosigkeit niedrig
-              ist, dann werden die Arbeitskräfte knapp. Damit wird es
-              wahrscheinlicher, dass MigrantInnen ein Arbeitsvisum erhalten.
+              ..bei hohem Wirtschaftswachstum und niedriger Arbeitslosigkeit
+              steigt die Nachfrage nach Arbeitskräften. In dieser Situation
+              werden Migrantinnen und Migranten eher gebraucht, um den
+              Arbeitsmarkt zu unterstützen.
             </p>
           </div>
         </Reveal>
@@ -316,8 +317,9 @@ function Mythos1Grafik3() {
           <h2>Die Zuwanderung steigt..</h2>
           <div className="diago_bg_2">
             <p>
-              wenn der Motor der Wirtschaft brummt. Die Nachfrage nach
-              Arbeitskräften steigt.
+              ..wenn die Wirtschaft floriert und die Nachfrage nach
+              Arbeitskräften wächst. Ein dynamischer Arbeitsmarkt zieht mehr
+              Migrantinnen und Migranten an, die nach Arbeitsplätzen suchen.
             </p>
           </div>
         </Reveal>
@@ -326,8 +328,10 @@ function Mythos1Grafik3() {
           <h2>Die Zuwanderung sinkt..</h2>
           <div className="diago_bg_3">
             <p>
-              wenn der Motor der Wirtschaft stottert. Die Nachfrage nach
-              Arbeitskräften sinkt.
+              ..wenn die Wirtschaft schwächelt und die Nachfrage nach
+              Arbeitskräften zurückgeht. In Zeiten wirtschaftlicher Unsicherheit
+              und geringerer Stellenangebote gibt es weniger Anreize für
+              Migration.
             </p>
           </div>
         </Reveal>

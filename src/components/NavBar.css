@@ -17,6 +17,12 @@
   
 }
 
+.logo_transparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 .menu_icon img {

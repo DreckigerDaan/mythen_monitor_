@@ -292,7 +292,7 @@ function MythosEins() {
             <p>
               ..wie PolitikerInnen Populismus nutzen, um Stimmen zu gewinnen und
               eine auf Hetze basierende Stimmung zu schüren. Dabei werden Fakten
-              verdreht, Staistiken falsch interpretiert und Desinformationen
+              verdreht, Statistiken falsch interpretiert und Desinformationen
               gestreut.
             </p>
           </div>
@@ -332,10 +332,10 @@ function MythosEins() {
         <img src={World} alt=" World" />
         <div className="info_text">
           <p>
-            Schauen wir uns jetzt die Entwicklung der Erwerbsquote bei
-            geflüchteten Männern, welche im Rahmen der sogenannten
-            "Flüchtlingskrise" 2014 - 2016 in Deutschland angekommen sind, im
-            Zeitraum von mehreren Jahren an:
+            Die Entwicklung der Erwerbsquote bei geflüchteten Männern, die im
+            Rahmen der sogenannten 'Flüchtlingskrise' 2014 – 2016 nach
+            Deutschland gekommen sind, wird im Zeitraum von mehreren Jahren
+            analysiert:
           </p>
           {/* Container for the D3 chart */}
         </div>
