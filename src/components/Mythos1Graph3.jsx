@@ -243,7 +243,7 @@ function Mythos1Grafik3() {
           <h2>Die folgende Grafik..</h2>
           <div className="diago_bg">
             <p>
-              stellt den Zusammenhang zwischen dem Wirtschaftswachstum und der
+              ..stellt den Zusammenhang zwischen dem Wirtschaftswachstum und der
               Nettozuwanderung in Deutschland her.
             </p>
           </div>

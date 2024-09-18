@@ -287,7 +287,7 @@ function MythosEins() {
 
       <div className="wrap">
         <Reveal>
-          <h2>Diese Aussagen verdeutlichen</h2>
+          <h2>Diese Aussagen verdeutlichen..</h2>
           <div className="diago_bg">
             <p>
               ..wie PolitikerInnen Populismus nutzen, um Stimmen zu gewinnen und
@@ -405,7 +405,7 @@ function MythosEins() {
 
       <div className="wrap">
         <Reveal>
-          <h2>Die Daten zeigen,.</h2>
+          <h2>Die Daten zeige..</h2>
           <div className="diago_bg">
             <p>
               ..dass geflüchtete Männer nach acht Jahren Integrationszeit eine
