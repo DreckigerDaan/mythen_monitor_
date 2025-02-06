@@ -202,7 +202,7 @@ function Mythos1Graph2() {
         <img src={World} alt=" World" />
         <div className="infotext_grafik_einschraenkungen">
           <p>
-            für geflüchtete Menschen, auf die sie keinen Einfluss haben, die
+            ..für geflüchtete Menschen, auf die sie keinen Einfluss haben, die
             jedoch in den ersten Jahren zu einer niedrigen Erwerbsquote führen.
             Diese Herausforderungen werden in der deutschen Integrationspolitik
             oft nicht ausreichend berücksichtigt und erschweren den

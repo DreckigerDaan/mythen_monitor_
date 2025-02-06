@@ -2,7 +2,6 @@ import Logo from "../assets/logo.svg";
 import World from "../assets/worldmap.svg";
 import Arrow from "../assets/arrow_down.svg";
 import NavBar from "./NavBar";
-import Text from "./text";
 import "./Home.css";
 import { Link } from "react-router-dom";
 

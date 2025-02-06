@@ -157,6 +157,51 @@ function MythosEins() {
         .attr("y2", (d) => y(d))
         .attr("stroke", "#e0e0e0")
         .attr("stroke-width", 0.1);
+
+      const circle = svg
+        .append("circle")
+        .attr("r", 0)
+        .attr("fill", "steelblue")
+        .style("stroke", "white")
+        .attr("opacity", 0.7)
+        .style("pointer-events", "none");
+      // create a listening rectangle
+
+      const listeningRect = svg
+        .append("rect")
+        .attr("width", width)
+        .attr("height", height);
+
+      // create the mouse move function
+
+      listeningRect.on("mousemove", function (event) {
+        const [xCoord] = d3.pointer(event, this);
+        const bisectDate = d3.bisector((d) => d.year).left;
+        const x0 = x.invert(xCoord);
+        const i = bisectDate(data2, x0, 1);
+        const d0 = data2[i - 1];
+        const d1 = data2[i];
+        const d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+        const xPos = x(d.year);
+        const yPos = y(d.number);
+
+        // Update the circle position
+
+        circle.attr("cx", xPos).attr("cy", yPos);
+
+        // Add transition for the circle radius
+
+        circle.transition().duration(50).attr("r", 5);
+
+        // add in  our tooltip
+      });
+      // listening rectangle mouse leave function
+
+      listeningRect.on("mouseleave", function () {
+        circle.transition().duration(50).attr("r", 0);
+
+        tooltip.style("display", "none");
+      });
     }
 
     if (currentStepIndex !== null) {
